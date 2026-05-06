@@ -9,33 +9,33 @@ const services = [
     color: "bg-mist-blue"
   },
   {
-    title: "Destination Weddings",
-    desc: "Global expertise in scouting and executing world-class venue experiences.",
-    img: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=2070&auto=format&fit=crop",
+    title: "Corporate Events",
+    desc: "High-level brand experiences that combine professionalism with prestige.",
+    img: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1170&auto=format&fit=crop",
     color: "bg-ivory"
-  },
-  {
-    title: "Pre Wedding Events",
-    desc: "Curated experiences from intimate sangeets to grand cocktail galas.",
-    img: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=2070&auto=format&fit=crop",
-    color: "bg-mist-blue"
   },
   {
     title: "Artist Management",
     desc: "Exclusive access to global superstars and world-class entertainers.",
-    img: "https://images.unsplash.com/photo-1514525253361-bee8d40d743b?q=80&w=2069&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1170&auto=format&fit=crop",
     color: "bg-warm-white"
   },
   {
-    title: "Decor & Production",
-    desc: "Avant-garde design engineering that transforms any space into a dreamscape.",
-    img: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=2070&auto=format&fit=crop",
+    title: "Live Music & Dj",
+    desc: "Being one of the distinguished enterprises, we are immersed in offering highly reliable Live Music & Dj Services to meet the detailed demands of our customers.",
+    img: "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?q=80&w=1169&auto=format&fit=crop",
+    color: "bg-warm-white"
+  },
+  {
+    title: "Birthday Party",
+    desc: "Our firm has made unbelievable breakthrough in the providing Birthday Party Services. Attributed for its flexibility and reliability, these services are broadly demanded. ",
+    img: "https://images.unsplash.com/photo-1482731910308-31e96e5d1d28?q=80&w=1170&auto=format&fit=crop",
     color: "bg-mist-blue"
   },
   {
-    title: "Corporate Events",
-    desc: "High-level brand experiences that combine professionalism with prestige.",
-    img: "https://images.unsplash.com/photo-1505373630572-2d1de99d8824?q=80&w=2012&auto=format&fit=crop",
+    title: "Kitty Party",
+    desc: "Leveraging on our huge industry understanding and knowledge, we are providing Kitty Party Services that is broadly used for several sectors. ",
+    img: "https://images.unsplash.com/photo-1519671282429-b44660ead0a7?q=80&w=1170&auto=format&fit=crop",
     color: "bg-ivory"
   }
 ];

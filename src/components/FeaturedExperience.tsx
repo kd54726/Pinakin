@@ -40,7 +40,7 @@ export default function FeaturedExperience() {
                 Crafting <br /> <span className="text-slate-blue italic">Emotional</span> Landmarks
               </h2>
               <p className="text-lg text-charcoal/70 font-sans font-light max-w-xl leading-relaxed mb-8">
-                We believe an event is more than a gathering; it is a meticulously choreographed sequence of moments designed to evoke wonder.
+                Pinakin Event & Entertainment in Dwarka, New Delhi is one of the most trusted Event Management Company. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of New Delhi. Over the course of its journey, this business has established a firm foothold in it’s industry.
               </p>
             </motion.div>
 

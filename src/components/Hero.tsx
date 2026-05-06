@@ -6,11 +6,11 @@ export default function Hero() {
       {/* Background Cinematic Visual with Low Opacity Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1675181344280-e63b67c91049?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Luxury Event Atmosphere"
           className="w-full h-full object-cover scale-105"
         />
-        <div className="absolute inset-0 bg-charcoal/50" />
+        <div className="absolute inset-0 bg-[#020f21]/60" />
       </div>
 
       {/* Content */}
@@ -20,9 +20,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <span className="text-editorial-tag mb-6 block">
-            Luxury Event Production
-          </span>
+          
           <h1 className="text-4xl sm:text-5xl md:text-8xl text-white font-serif mb-8 leading-[1.05] tracking-[-1px]">
             Celebrations Designed <br className="hidden md:block" />
             <span className="italic text-slate-blue">Larger Than Life.</span>
@@ -40,10 +38,6 @@ export default function Hero() {
             </button>
           </div>
         </motion.div>
-      </div>
-      
-      <div className="absolute top-32 right-[-20px] bg-brand-blue text-white px-5 py-2.5 text-[10px] uppercase tracking-[2px] font-bold rotate-90 origin-top-right z-20">
-        Now Booking 2026
       </div>
       
       {/* Scroll indicator */}

@@ -5,6 +5,7 @@
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import TrustStrip from "./components/TrustStrip";
 import TrustTicker from "./components/TrustTicker";
 import FeaturedExperience from "./components/FeaturedExperience";
 import Services from "./components/Services";
@@ -41,7 +42,7 @@ export default function App() {
       
       <main>
         <Hero />
-        <TrustTicker />
+        <TrustStrip />
         <FeaturedExperience />
         <Services />
         <WhyChooseUs />
