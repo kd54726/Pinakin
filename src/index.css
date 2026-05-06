@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-brand-blue: #0B4FB3;
+  --color-ivory: #F8F5F0;
+  --color-warm-white: #FCFBF8;
+  --color-charcoal: #1D1D1D;
+  --color-slate-blue: #6F8FC9;
+  --color-mist-blue: #DCE6F7;
+
+  --radius-xl: 32px;
+  --radius-2xl: 48px;
+
+  /* Artistic Flair Additions */
+  --shadow-editorial: 0 20px 40px rgba(0,0,0,0.05);
+  --border-editorial: 1px solid rgba(11, 79, 179, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-ivory text-charcoal font-sans antialiased selection:bg-brand-blue/20;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-tight;
+  }
+
+  /* Artistic Flair Headline Styling */
+  h1 {
+    @apply font-bold leading-[1.05] tracking-[-1px];
+  }
+}
+
+.glass-morphism {
+  @apply bg-white/80 backdrop-blur-md border border-white/20;
+}
+
+.text-editorial-tag {
+  @apply text-[11px] uppercase tracking-[4px] font-bold text-brand-blue;
+}
+
+.btn-editorial {
+  @apply bg-brand-blue text-white px-8 py-3 text-[11px] uppercase tracking-[2px] font-semibold transition-all hover:bg-charcoal rounded-full;
+}
+
+.stat-box-border {
+  @apply border-t border-brand-blue/20 pt-5;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
